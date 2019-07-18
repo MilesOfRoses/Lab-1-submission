@@ -14,8 +14,6 @@ li {
     font-weight: 800;
 }
 
-
-
 h1 {
     float: left;
     font-size: 1.2rem;
@@ -102,3 +100,38 @@ li, p {
     left: 500px;
 }
 
+@media only screen and (max-width: 768px) {
+    #purple, #pink, #yellow{
+        display: none;
+    }
+
+    li {
+        display: block;
+    }
+
+    ul {
+        float: left;
+        position: relative;
+        top: 30px;
+        margin-left: -155px;
+        width: 59%;
+    }
+
+    #scroll {
+        top: 50px;
+        left: 0%;
+        padding: 8px 20% 8px 20%;
+    }
+
+    #selected {
+        text-align: center;
+        /* padding: 8px 25% 8px 25%; */
+    }
+
+    main {
+        margin-top: 30px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
